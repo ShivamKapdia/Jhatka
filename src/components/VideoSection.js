@@ -14,7 +14,7 @@ const VideoSection = () => {
         <div className="video-main-wrap">
           <iframe 
             src="https://www.youtube.com/embed/RUIaWa0tvRw?rel=0&modestbranding=1" 
-            title="Jhatka Organisation Video" 
+            title="Zhatka Organisation Video" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowFullScreen
           ></iframe>
@@ -39,7 +39,7 @@ const VideoSection = () => {
           <div className="video-thumb">
             <iframe 
               src="https://www.youtube.com/embed/RUIaWa0tvRw?start=10&rel=0&modestbranding=1" 
-              title="What is Jhatka" 
+              title="What is Zhatka" 
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
               allowFullScreen
             ></iframe>
@@ -52,7 +52,7 @@ const VideoSection = () => {
           <div className="video-thumb">
             <iframe 
               src="https://www.youtube.com/embed/RUIaWa0tvRw?start=50&rel=0&modestbranding=1" 
-              title="Why Choose Jhatka" 
+              title="Why Choose Zhatka" 
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
               allowFullScreen
             ></iframe>
@@ -65,7 +65,7 @@ const VideoSection = () => {
           <div className="video-thumb">
             <iframe 
               src="https://www.youtube.com/embed/RUIaWa0tvRw?start=90&rel=0&modestbranding=1" 
-              title="Jhatka Movement" 
+              title="Zhatka Movement" 
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
               allowFullScreen
             ></iframe>

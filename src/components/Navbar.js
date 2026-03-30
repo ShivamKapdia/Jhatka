@@ -27,11 +27,11 @@ const Navbar = () => {
         <a className="nav-logo" href="#">
           <img
             src={logo}
-            alt="Malhar Jhatka Logo"
+            alt="Malhar Zhatka Logo"
             className="nav-logo-img"
           />
           <span className="nav-logo-text">
-            Malhar <span>Jhatka</span>
+            Malhar <span>Zhatka</span>
           </span>
         </a>
 
