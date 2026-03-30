@@ -18,10 +18,6 @@ const Navbar = () => {
     <>
       <nav id="navbar" className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <a className="nav-logo" href="#">
-          <img 
-            src="https://jhatka.org/wp-content/uploads/2021/02/logo-2-120x51.png" 
-            alt="Jhatka" 
-          />
           <span className="nav-logo-text">Jhatka <span>Organisation</span></span>
         </a>
 

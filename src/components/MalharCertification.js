@@ -12,10 +12,6 @@ const MalharCertification = () => {
           <p className="body-text">
             Malhar Certification is the trusted platform that verifies Jhatka vendors. Every Malhar-certified vendor ensures meat is slaughtered according to Hindu tradition — fresh, clean, and uncontaminated.
           </p>
-          
-          <p className="body-text">
-            We encourage every Hindu, Sikh, Jain and Buddhist to purchase mutton and chicken only from Malhar-certified vendors. Look for the Malhar seal of authenticity.
-          </p>
 
           <div style={{ display: 'flex', gap: '13px', flexWrap: 'wrap', marginTop: '28px' }}>
             <a 

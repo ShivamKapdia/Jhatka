@@ -7,11 +7,6 @@ const Footer = () => {
         <div className="footer-top">
           <div>
             <div className="footer-logo-wrap">
-              <img 
-                className="footer-logo-img" 
-                src="https://jhatka.org/wp-content/uploads/2021/02/logo-2-120x51.png" 
-                alt="Jhatka Logo" 
-              />
               <div className="footer-brand-text">Jhatka <span>Organisation</span></div>
             </div>
             <div className="footer-desc">
