@@ -1,16 +1,19 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const MalharCertification = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="malhar">
       <div className="malhar-section">
         <div>
-          <div className="section-tag">Our Partner</div>
-          <h2 className="section-h2">Malhar <em>Certification</em></h2>
+          <div className="section-tag">{t('malhar.sectionTag')}</div>
+          <h2 className="section-h2">{t('malhar.title')}</h2>
           <div className="gold-line"></div>
           
           <p className="body-text">
-            Malhar Certification is the trusted platform that verifies Jhatka vendors. Every Malhar-certified vendor ensures meat is slaughtered according to Hindu tradition — fresh, clean, and uncontaminated.
+            {t('malhar.description')}
           </p>
 
           <div style={{ display: 'flex', gap: '13px', flexWrap: 'wrap', marginTop: '28px' }}>
@@ -20,7 +23,7 @@ const MalharCertification = () => {
               target="_blank" 
               rel="noopener noreferrer"
             >
-              Find Certified Shops
+              {t('malhar.findCertifiedShops')}
             </a>
             <a 
               className="btn-outline" 
@@ -28,7 +31,7 @@ const MalharCertification = () => {
               target="_blank" 
               rel="noopener noreferrer"
             >
-              Visit Malhar
+              {t('malhar.visitMalhar')}
             </a>
           </div>
         </div>
@@ -37,16 +40,16 @@ const MalharCertification = () => {
           <div className="malhar-card">
             <div className="malhar-icon">🔖</div>
             <div className="malhar-text">
-              <h4>Strict Vendor Verification</h4>
-              <p>Only vendors following Hindu tradition receive Malhar certification after thorough verification.</p>
+              <h4>{t('malhar.strictVerification')}</h4>
+              <p>{t('malhar.strictVerificationDesc')}</p>
             </div>
           </div>
 
           <div className="malhar-card">
             <div className="malhar-icon">✅</div>
             <div className="malhar-text">
-              <h4>100% Purity Guaranteed</h4>
-              <p>Fresh, hygienic meat. No saliva contamination. No mixing with other animal meat.</p>
+              <h4>{t('malhar.purityGuaranteed')}</h4>
+              <p>{t('malhar.purityGuaranteedDesc')}</p>
             </div>
           </div>
 

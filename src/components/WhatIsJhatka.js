@@ -1,6 +1,9 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const WhatIsJhatka = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="what" className="what-section">
       <div className="what-inner">
@@ -19,25 +22,25 @@ const WhatIsJhatka = () => {
           </div>
           <div className="what-badge">
             <div className="what-badge-num">1</div>
-            <div className="what-badge-text">Single Stroke</div>
+            <div className="what-badge-text">{t('whatIsJhatka.singleStroke')}</div>
           </div>
         </div>
 
         <div>
-          <div className="section-tag">What is Jhatka</div>
-          <h2 className="section-h2">The Word is <em>Self-Explanatory</em></h2>
+          <div className="section-tag">{t('whatIsJhatka.sectionTag')}</div>
+          <h2 className="section-h2">{t('whatIsJhatka.title')}</h2>
           <div className="gold-line"></div>
           
           <p className="body-text">
-            The word "Jhatka" literally means a strong, single stroke. Jhatka Meat refers to the traditional Indian method of slaughtering an animal for food in the least painful manner possible.
+            {t('whatIsJhatka.description')}
           </p>
           
           <div className="highlight-box">
-            "Jhatka causes minimum pain and trauma to the animal. As pain is a message sent by the brain to the body — in Jhatka, that communication severs instantly. Science and humanity both approve."
+            {t('whatIsJhatka.highlight')}
           </div>
           
           <p className="body-text">
-            In a single powerful strike, the spinal cord is severed and the animal feels no prolonged pain. This is the ancient, humane, and scientifically approved method our ancestors practiced for centuries.
+            {t('whatIsJhatka.details')}
           </p>
           
           <a 
@@ -47,7 +50,7 @@ const WhatIsJhatka = () => {
             rel="noopener noreferrer"
             style={{ marginTop: '12px', display: 'inline-block' }}
           >
-            Learn More →
+            {t('whatIsJhatka.learnMore')}
           </a>
         </div>
       </div>

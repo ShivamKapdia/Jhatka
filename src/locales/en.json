@@ -1,0 +1,145 @@
+{
+  "navbar": {
+    "whatIsJhatka": "What is Jhatka",
+    "whyJhatka": "Why Jhatka",
+    "gallery": "Gallery",
+    "videos": "Videos",
+    "events": "Events",
+    "contact": "Contact",
+    "registerNow": "Register Now",
+    "brand": "Malhar Jhatka"
+  },
+  "hero": {
+    "jhatkaOrganisation": "Jhatka Organisation · Est. 2021",
+    "author": "By",
+    "authorName": "S. Ravi Ranjan Singh",
+    "title": "Jhatka — The Humanomics",
+    "tagline": "The traditional Indian way of slaughter — single stroke, minimum pain, maximum respect for life, animal rights, and Bharatiya honour.",
+    "discoverJhatka": "Discover Jhatka",
+    "registerWithUs": "Register With Us"
+  },
+  "whatIsJhatka": {
+    "sectionTag": "What is Jhatka",
+    "title": "The Word is Self-Explanatory",
+    "singleStroke": "Single Stroke",
+    "description": "The word \"Jhatka\" literally means a strong, single stroke. Jhatka Meat refers to the traditional Indian method of slaughtering an animal for food in the least painful manner possible.",
+    "highlight": "Jhatka causes minimum pain and trauma to the animal. As pain is a message sent by the brain to the body — in Jhatka, that communication severs instantly. Science and humanity both approve.",
+    "details": "In a single powerful strike, the spinal cord is severed and the animal feels no prolonged pain. This is the ancient, humane, and scientifically approved method our ancestors practiced for centuries.",
+    "learnMore": "Learn More →"
+  },
+  "stats": {
+    "swiftStroke": "Swift Stroke",
+    "religiousChanting": "Religious Chanting",
+    "traditionalAncient": "Traditional & Ancient",
+    "bhartiyaHonour": "Bhartiya Honour"
+  },
+  "whyJhatka": {
+    "sectionTag": "Why It Matters",
+    "title": "5 Reasons to Choose Jhatka",
+    "reason1Title": "Bhartiya Honour & Tradition",
+    "reason1": "The ancient Indian tradition of Jhatka is at the verge of extinction. Traditional Khatik butchers are being bulldozed by the Meat Mafia. We must preserve our heritage.",
+    "reason2Title": "Economic Justice",
+    "reason2": "We must defend the shrinking space of castes like KHATICS. Those who have been in this trade for ages face discrimination and unemployment.",
+    "reason3Title": "Health & Hygiene",
+    "reason3": "Slow and torturous killing leads to contamination. Stress hormones released during prolonged killing spoil the meat. Health-conscious people choose Jhatka only.",
+    "reason4Title": "Animal Rights",
+    "reason4": "Every animal has the right to die with the least possible pain. A single swift stroke severs all connections instantaneously — this is humanity's duty.",
+    "reason5Title": "Consumer Rights",
+    "reason5": "Every consumer has the right to eat by their own choice. No seller or Meat Mafia can impose their personal belief or convenience on consumers."
+  },
+  "events": {
+    "sectionTag": "Latest from Jhatka",
+    "title": "Events & News",
+    "event1Title": "Jhatka Awareness Drive",
+    "event1Desc": "A major awareness event to educate people about the importance of Jhatka and the traditional Bhartiya way of life.",
+    "event1Date": "February 10, 2021",
+    "event2Title": "Community Meeting — Jhatka Rights",
+    "event2Desc": "A gathering of Hindu, Sikh and Jain community members to discuss and preserve the tradition of Jhatka slaughter.",
+    "event2Date": "February 10, 2021",
+    "event3Title": "Youth & Jhatka — A New Generation",
+    "event3Desc": "How the youth is taking up the cause of Jhatka and spreading awareness about Bhartiya food traditions across India.",
+    "event3Date": "February 10, 2021",
+    "readMore": "Read More →",
+    "eventTag": "Event",
+    "blogTag": "Blog"
+  },
+  "gallery": {
+    "sectionTag": "Photo Gallery",
+    "title": "Our Moments",
+    "whyChooseJhatka": "Why Choose Jhatka",
+    "ourMission": "Our Mission"
+  },
+  "video": {
+    "sectionTag": "Watch & Learn",
+    "title": "Jhatka — The Truth",
+    "caption": "Subscribe to our YouTube Channel — more videos on Jhatka, tradition & awareness",
+    "subscribeYoutube": "▶ Subscribe on YouTube",
+    "whatIsJhatka": "What is Jhatka?",
+    "whyChooseJhatka": "Why Choose Jhatka",
+    "jhatkaMovement": "Jhatka Movement"
+  },
+  "scripture": {
+    "quote": "\"Distinguish between Meat and Meat, Cow and Goat, Jhatka and Halal. No alien food system can be forced upon Hindus and Bhartis.\"",
+    "source": "— S. Ravi Ranjan Singh · jhatka.org"
+  },
+  "appeals": {
+    "sectionTag": "Our Appeal",
+    "title": "A Message for Everyone",
+    "appeal1Title": "To Hindus — Non-Vegetarian",
+    "appeal1": "Insist for Jhatka from your very next order — be it raw, cooked, or served in a hotel, train, airline, or gathering. Always ask: \"Is this Jhatka?\"",
+    "appeal2Title": "To Hindus — Vegetarian",
+    "appeal2": "Differentiate between killing and torturous killing. Oppose the imposition of any foreign food system on non-vegetarian Hindus. Stand with your community.",
+    "appeal3Title": "To Christians & Atheists",
+    "appeal3": "Care for animal pain. Care for the sentiments of others. Care for your health. A system that causes less suffering is always the better choice."
+  },
+  "malhar": {
+    "sectionTag": "Our Partner",
+    "title": "Malhar Certification",
+    "description": "Malhar Certification is the trusted platform that verifies Jhatka vendors. Every Malhar-certified vendor ensures meat is slaughtered according to Hindu tradition — fresh, clean, and uncontaminated.",
+    "findCertifiedShops": "Find Certified Shops",
+    "visitMalhar": "Visit Malhar",
+    "strictVerification": "Strict Vendor Verification",
+    "strictVerificationDesc": "Only vendors following Hindu tradition receive Malhar certification after thorough verification.",
+    "purityGuaranteed": "100% Purity Guaranteed",
+    "purityGuaranteedDesc": "Fresh, hygienic meat. No saliva contamination. No mixing with other animal meat."
+  },
+  "cta": {
+    "title": "Join the Fight for Jhatka",
+    "description": "Register with us. Spread awareness. Insist for Jhatka. Every order is a vote for tradition, animal rights, and Bhartiya honour.",
+    "registerWithUs": "Register With Us",
+    "youtube": "▶ YouTube",
+    "contactUs": "Contact Us"
+  },
+  "footer": {
+    "brand": "Jhatka Organisation",
+    "description": "The fight for Jhatka — preserving Bhartiya tradition, animal rights, consumer rights and Khatik community livelihoods across India.",
+    "about": "About",
+    "resources": "Resources",
+    "partners": "Partners",
+    "aboutLinks": {
+      "whatIsJhatka": "What is Jhatka",
+      "whyJhatka": "Why Jhatka",
+      "ourStory": "Our Story",
+      "whoAreWe": "Who Are We",
+      "whatWeDo": "What We Do"
+    },
+    "resourcesLinks": {
+      "holyScriptures": "Holy Scriptures",
+      "ourSupporters": "Our Supporters",
+      "events": "Events",
+      "news": "News",
+      "blog": "Blog"
+    },
+    "partnersLinks": {
+      "malharCertification": "Malhar Certification",
+      "findShops": "Find Shops",
+      "registerNow": "Register Now",
+      "contact": "Contact"
+    },
+    "copyright": "© 2021–2025 Jhatka Organisation · All Rights Reserved · jhatka.org ",
+    "designedWith": "Designed with ❤️ for Bharat"
+  },
+  "common": {
+    "language": "Language"
+  }
+}

@@ -1,14 +1,17 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Scripture = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="scripture-section">
       <div className="scripture-inner">
         <span className="scripture-icon">📖</span>
         <div className="scripture-text">
-          "Distinguish between Meat and Meat, Cow and Goat, Jhatka and Halal. No alien food system can be forced upon Hindus and Bhartis."
+          {t('scripture.quote')}
         </div>
-        <div className="scripture-source">— S. Ravi Ranjan Singh · jhatka.org</div>
+        <div className="scripture-source">{t('scripture.source')}</div>
       </div>
     </div>
   );

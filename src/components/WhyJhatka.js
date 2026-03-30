@@ -1,48 +1,51 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const WhyJhatka = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="why" className="why-section">
       <div className="why-inner">
         <div className="why-header">
-          <div className="section-tag" style={{ textAlign: 'center' }}>Why It Matters</div>
-          <h2 className="section-h2" style={{ textAlign: 'center' }}>5 Reasons to Choose <em>Jhatka</em></h2>
+          <div className="section-tag" style={{ textAlign: 'center' }}>{t('whyJhatka.sectionTag')}</div>
+          <h2 className="section-h2" style={{ textAlign: 'center' }}>{t('whyJhatka.title')}</h2>
         </div>
 
         <div className="why-grid">
           <div className="why-card">
             <div className="why-num">01</div>
             <span className="why-icon">🇮🇳</span>
-            <h3>Bhartiya Honour & Tradition</h3>
-            <p>The ancient Indian tradition of Jhatka is at the verge of extinction. Traditional Khatik butchers are being bulldozed by the Meat Mafia. We must preserve our heritage.</p>
+            <h3>{t('whyJhatka.reason1Title')}</h3>
+            <p>{t('whyJhatka.reason1')}</p>
           </div>
 
           <div className="why-card">
             <div className="why-num">02</div>
             <span className="why-icon">💼</span>
-            <h3>Economic Justice</h3>
-            <p>We must defend the shrinking space of castes like KHATICS. Those who have been in this trade for ages face discrimination and unemployment.</p>
+            <h3>{t('whyJhatka.reason2Title')}</h3>
+            <p>{t('whyJhatka.reason2')}</p>
           </div>
 
           <div className="why-card">
             <div className="why-num">03</div>
             <span className="why-icon">🏥</span>
-            <h3>Health & Hygiene</h3>
-            <p>Slow and torturous killing leads to contamination. Stress hormones released during prolonged killing spoil the meat. Health-conscious people choose Jhatka only.</p>
+            <h3>{t('whyJhatka.reason3Title')}</h3>
+            <p>{t('whyJhatka.reason3')}</p>
           </div>
 
           <div className="why-card">
             <div className="why-num">04</div>
             <span className="why-icon">🐄</span>
-            <h3>Animal Rights</h3>
-            <p>Every animal has the right to die with the least possible pain. A single swift stroke severs all connections instantaneously — this is humanity's duty.</p>
+            <h3>{t('whyJhatka.reason4Title')}</h3>
+            <p>{t('whyJhatka.reason4')}</p>
           </div>
 
           <div className="why-card">
             <div className="why-num">05</div>
             <span className="why-icon">⚖️</span>
-            <h3>Consumer Rights</h3>
-            <p>Every consumer has the right to eat by their own choice. No seller or Meat Mafia can impose their personal belief or convenience on consumers.</p>
+            <h3>{t('whyJhatka.reason5Title')}</h3>
+            <p>{t('whyJhatka.reason5')}</p>
           </div>
 
           <div className="why-card" style={{ background: 'rgba(255,107,0,0.06)', borderColor: 'rgba(255,107,0,0.3)' }}>
@@ -57,7 +60,7 @@ const WhyJhatka = () => {
               rel="noopener noreferrer"
               style={{ marginTop: '18px', fontSize: '10px', padding: '11px 22px' }}
             >
-              Register Now →
+              {t('navbar.registerNow')} →
             </a>
           </div>
         </div>

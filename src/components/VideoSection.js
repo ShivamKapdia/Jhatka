@@ -1,11 +1,14 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const VideoSection = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="video" className="video-section">
       <div className="video-inner">
-        <div className="section-tag">Watch & Learn</div>
-        <h2 className="section-h2">Jhatka — <em>The Truth</em></h2>
+        <div className="section-tag">{t('video.sectionTag')}</div>
+        <h2 className="section-h2">{t('video.title')}</h2>
         <div className="gold-line"></div>
 
         <div className="video-main-wrap">
@@ -18,7 +21,7 @@ const VideoSection = () => {
         </div>
 
         <div className="video-caption">
-          Subscribe to our <span>YouTube Channel</span> — more videos on Jhatka, tradition & awareness
+          {t('video.caption')}
         </div>
 
         <div style={{ textAlign: 'center', marginBottom: '40px' }}>
@@ -28,7 +31,7 @@ const VideoSection = () => {
             target="_blank" 
             rel="noopener noreferrer"
           >
-            ▶ Subscribe on YouTube
+            {t('video.subscribeYoutube')}
           </a>
         </div>
 
@@ -42,7 +45,7 @@ const VideoSection = () => {
             ></iframe>
             <div className="video-thumb-overlay">
               <div className="play-circle">▶</div>
-              <span className="thumb-label">What is Jhatka?</span>
+              <span className="thumb-label">{t('video.whatIsJhatka')}</span>
             </div>
           </div>
 
@@ -55,7 +58,7 @@ const VideoSection = () => {
             ></iframe>
             <div className="video-thumb-overlay">
               <div className="play-circle">▶</div>
-              <span className="thumb-label">Why Choose Jhatka</span>
+              <span className="thumb-label">{t('video.whyChooseJhatka')}</span>
             </div>
           </div>
 
@@ -68,7 +71,7 @@ const VideoSection = () => {
             ></iframe>
             <div className="video-thumb-overlay">
               <div className="play-circle">▶</div>
-              <span className="thumb-label">Jhatka Movement</span>
+              <span className="thumb-label">{t('video.jhatkaMovement')}</span>
             </div>
           </div>
         </div>

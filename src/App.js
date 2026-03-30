@@ -1,4 +1,5 @@
 import React from 'react';
+import i18n from './i18n/config';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Marquee from './components/Marquee';

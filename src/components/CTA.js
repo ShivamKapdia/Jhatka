@@ -1,10 +1,13 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const CTA = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="cta-section" id="contact">
-      <h2>Join the Fight for <em>Jhatka</em></h2>
-      <p>Register with us. Spread awareness. Insist for Jhatka. Every order is a vote for tradition, animal rights, and Bhartiya honour.</p>
+      <h2>{t('cta.title')}</h2>
+      <p>{t('cta.description')}</p>
       
       <div className="cta-actions">
         <a 
@@ -13,7 +16,7 @@ const CTA = () => {
           target="_blank" 
           rel="noopener noreferrer"
         >
-          Register With Us
+          {t('cta.registerWithUs')}
         </a>
         <a 
           className="btn-outline" 
@@ -21,7 +24,7 @@ const CTA = () => {
           target="_blank" 
           rel="noopener noreferrer"
         >
-          ▶ YouTube
+          {t('cta.youtube')}
         </a>
         <a 
           className="btn-outline" 
@@ -29,7 +32,7 @@ const CTA = () => {
           target="_blank" 
           rel="noopener noreferrer"
         >
-          Contact Us
+          {t('cta.contactUs')}
         </a>
       </div>
     </section>

@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import logo from "../assets/logo.png";
 
 const Navbar = () => {
+  const { t, i18n } = useTranslation();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
 
@@ -14,6 +16,10 @@ const Navbar = () => {
   }, []);
 
   const closeMobile = () => setMobileOpen(false);
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
 
   return (
     <>
@@ -31,24 +37,48 @@ const Navbar = () => {
 
         <ul className="nav-links">
           <li>
-            <a href="#what">What is Jhatka</a>
+            <a href="#what">{t('navbar.whatIsJhatka')}</a>
           </li>
           <li>
-            <a href="#why">Why Jhatka</a>
+            <a href="#why">{t('navbar.whyJhatka')}</a>
           </li>
           <li>
-            <a href="#gallery">Gallery</a>
+            <a href="#gallery">{t('navbar.gallery')}</a>
           </li>
           <li>
-            <a href="#video">Videos</a>
+            <a href="#video">{t('navbar.videos')}</a>
           </li>
           <li>
-            <a href="#events">Events</a>
+            <a href="#events">{t('navbar.events')}</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact">{t('navbar.contact')}</a>
           </li>
         </ul>
+
+        <div className="nav-language-selector">
+          <button 
+            className={i18n.language === 'en' ? 'lang-btn active' : 'lang-btn'}
+            onClick={() => changeLanguage('en')}
+            title="English"
+          >
+            EN
+          </button>
+          <button 
+            className={i18n.language === 'hi' ? 'lang-btn active' : 'lang-btn'}
+            onClick={() => changeLanguage('hi')}
+            title="हिंदी"
+          >
+            HI
+          </button>
+          <button 
+            className={i18n.language === 'mr' ? 'lang-btn active' : 'lang-btn'}
+            onClick={() => changeLanguage('mr')}
+            title="मराठी"
+          >
+            MR
+          </button>
+        </div>
 
         <a
           className="nav-cta"
@@ -56,7 +86,7 @@ const Navbar = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Register Now
+          {t('navbar.registerNow')}
         </a>
 
         <button className="hamburger" onClick={() => setMobileOpen(true)}>
@@ -73,19 +103,19 @@ const Navbar = () => {
             ✕
           </button>
           <a href="#what" onClick={closeMobile}>
-            What is Jhatka
+            {t('navbar.whatIsJhatka')}
           </a>
           <a href="#why" onClick={closeMobile}>
-            Why Jhatka
+            {t('navbar.whyJhatka')}
           </a>
           <a href="#gallery" onClick={closeMobile}>
-            Gallery
+            {t('navbar.gallery')}
           </a>
           <a href="#video" onClick={closeMobile}>
-            Videos
+            {t('navbar.videos')}
           </a>
           <a href="#events" onClick={closeMobile}>
-            Events
+            {t('navbar.events')}
           </a>
           <a
             href="https://jhatka.org/register-with-us/"
@@ -93,8 +123,35 @@ const Navbar = () => {
             rel="noopener noreferrer"
             onClick={closeMobile}
           >
-            Register Now
+            {t('navbar.registerNow')}
           </a>
+          
+          <div className="mobile-language-selector">
+            <button 
+              className={i18n.language === 'en' ? 'lang-btn active' : 'lang-btn'}
+              onClick={() => {
+                changeLanguage('en');
+              }}
+            >
+              EN
+            </button>
+            <button 
+              className={i18n.language === 'hi' ? 'lang-btn active' : 'lang-btn'}
+              onClick={() => {
+                changeLanguage('hi');
+              }}
+            >
+              HI
+            </button>
+            <button 
+              className={i18n.language === 'mr' ? 'lang-btn active' : 'lang-btn'}
+              onClick={() => {
+                changeLanguage('mr');
+              }}
+            >
+              MR
+            </button>
+          </div>
         </div>
       )}
     </>
